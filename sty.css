@@ -1,0 +1,32 @@
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: 3;
+    column-gap: 60px;
+}
+h1{
+    color: brown;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background-color: grey;
+    padding:5px;
+    margin: px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ul{
+    border-bottom:8px dotted brown;
+    border-left: 9px dashed greenyellow;
+    list-style-type: none;
+    text-shadow: 2px 2px blue;
+}
+li{
+    list-style-type: none;
+    text-shadow: 1px 1px black;
+}

@@ -1,0 +1,40 @@
+p.mukunzi{
+    border: 1px dotted black;
+    color: blue;
+}
+p.prince{
+    color: brown;
+    border: 1px;
+}
+p.yakuza{
+    color:green;
+    border: 1px;
+
+}
+a[href="https://www.airdroid.com/business/"]{
+    background-color: white seashell;
+    color: black;
+}
+div {
+    border: 1px solid black;
+    color: blue;
+    margin: 40px;
+    font-weight: bold;
+}
+p.prince{
+    border: inherit;
+    margin: inherit;
+}
+p.yakuza{
+    border: inherit;
+    margin: inherit;
+}
+p.mukunzi{
+    border: inherit;
+    margin: inherit;
+}
+p{
+    border: inherit;
+    margin: inherit;
+}
+

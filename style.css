@@ -1,0 +1,262 @@
+
+
+body{
+    background-color: greenyellow;
+  
+}
+header{
+    background-color: green;
+    position: fixed;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 30px;
+    z-index: 800px;
+
+}
+ header h1{
+    color: white;
+    border: 2px solid green;
+    display:inline-block;
+    border-radius: 10px;
+    margin-top: 0px;
+
+}
+.center{
+    background-color: orange;
+}
+.banner h2{
+    color: green;
+    padding: 30px;
+     left: 70px;
+     top: 30%;
+     position: absolute;
+     font-size:40px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    
+
+}
+.banner img:hover{
+    top: 10px;
+}
+nav{
+    background-color:grey;
+    position: sticky;
+    top: 70px;
+    width:100%;
+    left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 60px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+    top: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: blue;
+}
+nav li a.join{
+    color: red;
+}
+nav li:hover{
+    text-decoration: underline;
+    color: black;
+}
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+article h2{
+    color: brown;
+    font-size: 30px;
+    padding: 0 4px;
+    text-align: center;
+    text-decoration: underline;
+}
+article p{
+    line-height: 2em;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
+main{
+    justify-content: center;
+    max-width: 100%;
+    padding: 0 60px;
+    margin: 50px auto;
+    width: 900px;
+  box-sizing: border-box;
+}
+.images{
+    white-space: nowrap;
+    text-align: center;
+    margin: 80px 0px;
+    padding: 40px;
+}
+.images li{
+    display: inline-block;
+    width: 70%;
+    height: 40%;
+   
+
+}
+.images li img{
+    max-width: 100%;
+    padding:  15px;
+    align-items: center;
+
+}
+   
+
+.come{
+    background-color: grey;
+    text-align: center;
+    width: 100%;
+}
+.come h2{
+    color:brown;
+    text-decoration:1px solid black dotted;
+    font-size: 30px;
+}
+.come p{
+    font-size: 20px;
+}
+form input{
+    color: black;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    border: 2px  dotted black;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    background: transparent;
+
+}
+form input:focus{
+
+    outline: none;
+    border: 5px solid blue;
+}
+form input:valid{
+    border: 2px solid green;
+
+}
+form input:invalid{
+    border: 2px solid red;
+
+}
+footer{
+    background-color: green;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+
+}
+c{
+    color:orange;
+    font-size: 20px;
+
+}
+article p::first-letter{
+    font-size: 50px;
+}
+p::selection{
+    background-color: green;
+    color: blue;
+}
+p::after{
+content: icon;
+}
+.back{
+
+    background-image:url(logo.jpg);
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-right: 0;
+}
+@media screen and (max-width:1400px) {
+    nav li{
+        font-size: 10px;
+    color: red;}
+    article p{
+        font-size: 10px;
+    }
+    article h2{
+        font-size: 15px;
+    }
+    
+    
+    footer{
+        padding: 10px;
+        font-size: 20px;
+    }
+    nav{
+        top: 65px;
+
+        }
+        .banner img{
+            width: 100%;
+            height: 400px;
+
+        }
+        .come h2{
+            color: green;
+            font-size: 15px;
+        }
+        .come p{
+            font-size: 10px;
+        }
+        form input{
+            padding: 250;
+            font-size: 15px;
+            height: 15px;
+            width: 250px;
+        }
+        header{
+            height: 25px;
+        }
+        header h1{
+            padding: 0px 5px;
+            font-size: 20px;
+            }
+            .banner h2{
+                font-size: 20px;
+                color: blue;
+            }
+
+            main:hover{
+                justify-content: center;
+                max-width: 100%;
+                padding: 0 60px;
+                margin: 50px auto;
+                width: 500px;
+              box-sizing: border-box;
+            }
+    
+    
+}
